@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ItuneService.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+  ItuneService *itunes = [[ItuneService alloc] init];
+  
+  [itunes getItunesMusic:@"Katy Perry"];
   return YES;
 }
 

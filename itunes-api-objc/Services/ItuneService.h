@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ItuneService : NSObject
-
+@property (nonatomic, nonnull) NSString *errorMessage;
+-(NSMutableArray<NSString *> *) getItunesMusic: (NSString *) query;
 @end
 
 NS_ASSUME_NONNULL_END
