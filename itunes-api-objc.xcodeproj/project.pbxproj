@@ -14,6 +14,9 @@
 		18CC4E3D248C7CAC002217E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC4E3B248C7CAC002217E8 /* LaunchScreen.storyboard */; };
 		18CC4E40248C7CAC002217E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E3F248C7CAC002217E8 /* main.m */; };
 		18CC4E4A248C7E2E002217E8 /* ItuneService.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E49248C7E2E002217E8 /* ItuneService.m */; };
+		18CC4E4E248C83AA002217E8 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E4D248C83AA002217E8 /* Track.m */; };
+		18CC4E51248C83B5002217E8 /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E50248C83B5002217E8 /* Download.m */; };
+		18CC4E54248C8874002217E8 /* DownloadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E53248C8874002217E8 /* DownloadService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,12 @@
 		18CC4E3F248C7CAC002217E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18CC4E48248C7E2E002217E8 /* ItuneService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItuneService.h; sourceTree = "<group>"; };
 		18CC4E49248C7E2E002217E8 /* ItuneService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItuneService.m; sourceTree = "<group>"; };
+		18CC4E4C248C83AA002217E8 /* Track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		18CC4E4D248C83AA002217E8 /* Track.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		18CC4E4F248C83B5002217E8 /* Download.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		18CC4E50248C83B5002217E8 /* Download.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
+		18CC4E52248C8874002217E8 /* DownloadService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadService.h; sourceTree = "<group>"; };
+		18CC4E53248C8874002217E8 /* DownloadService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +100,8 @@
 			children = (
 				18CC4E48248C7E2E002217E8 /* ItuneService.h */,
 				18CC4E49248C7E2E002217E8 /* ItuneService.m */,
+				18CC4E52248C8874002217E8 /* DownloadService.h */,
+				18CC4E53248C8874002217E8 /* DownloadService.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -98,6 +109,10 @@
 		18CC4E4B248C7E36002217E8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				18CC4E4C248C83AA002217E8 /* Track.h */,
+				18CC4E4D248C83AA002217E8 /* Track.m */,
+				18CC4E4F248C83B5002217E8 /* Download.h */,
+				18CC4E50248C83B5002217E8 /* Download.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,7 +189,10 @@
 				18CC4E35248C7CAA002217E8 /* HomeController.m in Sources */,
 				18CC4E2F248C7CAA002217E8 /* AppDelegate.m in Sources */,
 				18CC4E4A248C7E2E002217E8 /* ItuneService.m in Sources */,
+				18CC4E4E248C83AA002217E8 /* Track.m in Sources */,
 				18CC4E40248C7CAC002217E8 /* main.m in Sources */,
+				18CC4E54248C8874002217E8 /* DownloadService.m in Sources */,
+				18CC4E51248C83B5002217E8 /* Download.m in Sources */,
 				18CC4E32248C7CAA002217E8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

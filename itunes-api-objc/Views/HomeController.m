@@ -20,5 +20,9 @@
   // Do any additional setup after loading the view.
 }
 
+-(void) urlsession: (NSURLSession *) session downloadTask: (NSURLSessionDownloadTask *) donwloadTask didFinishDownloadingTo: (URL *) location {
+  
+}
+
 
 @end
