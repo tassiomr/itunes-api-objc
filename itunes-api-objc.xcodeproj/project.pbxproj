@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		18CC4E2F248C7CAA002217E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E2E248C7CAA002217E8 /* AppDelegate.m */; };
 		18CC4E32248C7CAA002217E8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E31248C7CAA002217E8 /* SceneDelegate.m */; };
-		18CC4E35248C7CAA002217E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E34248C7CAA002217E8 /* ViewController.m */; };
-		18CC4E38248C7CAA002217E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC4E36248C7CAA002217E8 /* Main.storyboard */; };
+		18CC4E35248C7CAA002217E8 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E34248C7CAA002217E8 /* HomeController.m */; };
 		18CC4E3A248C7CAC002217E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CC4E39248C7CAC002217E8 /* Assets.xcassets */; };
 		18CC4E3D248C7CAC002217E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CC4E3B248C7CAC002217E8 /* LaunchScreen.storyboard */; };
 		18CC4E40248C7CAC002217E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E3F248C7CAC002217E8 /* main.m */; };
+		18CC4E4A248C7E2E002217E8 /* ItuneService.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC4E49248C7E2E002217E8 /* ItuneService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +22,14 @@
 		18CC4E2E248C7CAA002217E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18CC4E30248C7CAA002217E8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		18CC4E31248C7CAA002217E8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		18CC4E33248C7CAA002217E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18CC4E34248C7CAA002217E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18CC4E37248C7CAA002217E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CC4E33248C7CAA002217E8 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		18CC4E34248C7CAA002217E8 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		18CC4E39248C7CAC002217E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CC4E3C248C7CAC002217E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CC4E3E248C7CAC002217E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CC4E3F248C7CAC002217E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CC4E48248C7E2E002217E8 /* ItuneService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItuneService.h; sourceTree = "<group>"; };
+		18CC4E49248C7E2E002217E8 /* ItuneService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItuneService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +62,44 @@
 		18CC4E2C248C7CAA002217E8 /* itunes-api-objc */ = {
 			isa = PBXGroup;
 			children = (
+				18CC4E4B248C7E36002217E8 /* Models */,
+				18CC4E47248C7E19002217E8 /* Services */,
+				18CC4E46248C7CE5002217E8 /* Views */,
 				18CC4E2D248C7CAA002217E8 /* AppDelegate.h */,
 				18CC4E2E248C7CAA002217E8 /* AppDelegate.m */,
 				18CC4E30248C7CAA002217E8 /* SceneDelegate.h */,
 				18CC4E31248C7CAA002217E8 /* SceneDelegate.m */,
-				18CC4E33248C7CAA002217E8 /* ViewController.h */,
-				18CC4E34248C7CAA002217E8 /* ViewController.m */,
-				18CC4E36248C7CAA002217E8 /* Main.storyboard */,
 				18CC4E39248C7CAC002217E8 /* Assets.xcassets */,
 				18CC4E3B248C7CAC002217E8 /* LaunchScreen.storyboard */,
 				18CC4E3E248C7CAC002217E8 /* Info.plist */,
 				18CC4E3F248C7CAC002217E8 /* main.m */,
 			);
 			path = "itunes-api-objc";
+			sourceTree = "<group>";
+		};
+		18CC4E46248C7CE5002217E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18CC4E33248C7CAA002217E8 /* HomeController.h */,
+				18CC4E34248C7CAA002217E8 /* HomeController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18CC4E47248C7E19002217E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18CC4E48248C7E2E002217E8 /* ItuneService.h */,
+				18CC4E49248C7E2E002217E8 /* ItuneService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		18CC4E4B248C7E36002217E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +161,6 @@
 			files = (
 				18CC4E3D248C7CAC002217E8 /* LaunchScreen.storyboard in Resources */,
 				18CC4E3A248C7CAC002217E8 /* Assets.xcassets in Resources */,
-				18CC4E38248C7CAA002217E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CC4E35248C7CAA002217E8 /* ViewController.m in Sources */,
+				18CC4E35248C7CAA002217E8 /* HomeController.m in Sources */,
 				18CC4E2F248C7CAA002217E8 /* AppDelegate.m in Sources */,
+				18CC4E4A248C7E2E002217E8 /* ItuneService.m in Sources */,
 				18CC4E40248C7CAC002217E8 /* main.m in Sources */,
 				18CC4E32248C7CAA002217E8 /* SceneDelegate.m in Sources */,
 			);
@@ -156,14 +182,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18CC4E36248C7CAA002217E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18CC4E37248C7CAA002217E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18CC4E3B248C7CAC002217E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
